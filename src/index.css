@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(assets/sfondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 9px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.container .correct {
+  background: rgb(163, 253, 163);
+  border-color: rgb(1, 236, 1);
+}
+
+.container .wrong {
+  background: rgb(250, 131, 131);
+  border-color: rgb(253, 63, 63);
+}

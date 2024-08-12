@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "Da est spira:",
+    option1: "Levante",
+    option2: "Ponente",
+    option3: "Tramontana",
+    option4: "Maestrale",
+    ans: 1,
+  },
+  {
+    question: "L'anemometro misura:",
+    option1: "La velocità della corrente",
+    option2: "La velocità del vento",
+    option3: "La velocità dell'imbarcazione",
+    option4: "La direzione del vento",
+    ans: 2,
+  },
+  {
+    question: "Un miglio nautico misura",
+    option1: "1 km",
+    option2: "2 km",
+    option3: "10 km",
+    option4: "1,8 km",
+    ans: 4,
+  },
+  {
+    question: "La girante in un motore fuoribordo è:",
+    option1: "La parte centrale  dell'elica",
+    option2: "L'asse su cui ruota la pala del timone",
+    option3: "La pompa a depressione",
+    option4: "Un tipo di elica",
+    ans: 3,
+  },
+  {
+    question: "Navigando entro le 6 miglia dalla costa devo avere a bordo:",
+    option1: "1 bussola e le tabelle delle deviazioni",
+    option2: "1 apparato vhf",
+    option3: "almeno 2 boette fumogene",
+    option4: "1 zattera di salvataggio",
+    ans: 2,
+  },
+];
